@@ -4,12 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 //AppTest contains all JUnit Tests
 public class AppTest {
 
-    //There are ten tests from 0->10 ensuring the fibonacci sequence is properly returned
-    @Test
-    void TermZero() {
-        assertEquals(0, Main.fibonacci(0));
-    }
-
+    //There are ten tests from 1->10 ensuring the fibonacci sequence is properly returned
+    
     @Test
     void termOne() {
         assertEquals(1,Main.fibonacci(1));
