@@ -7,7 +7,7 @@ public class Main {
      * @param args Command-line arguments (not used in this application).
      */
     public static void main(String[] args){
-        int n = 15;
+        int n = 10;
         int term = fibonacci(n);
         System.out.println("\nThe " + n + "th term of the Fibonacci sequence is " + term + ".");
     }
